@@ -24,3 +24,13 @@ class FooCog(commands.Cog):
     - The `commands.Bot` instance to load cogs.
 - `folder_name`
     - The folder where the cogs are located. You may also enter something like `ext.cogs` if the cogs folder is inside a folder named `ext`.
+
+# Installation
+- Pypi
+    - `py -m pip install -U disnake-cog-loader`
+- Manual
+    - Clone this repository.
+    - Install packages listed in [`requiements.txt](/requirements.txt)
+        - `py -m pip install -r requirements.txt`
+    - Copy the [`loader`](/disnake/ext/loader) folder to where you want to use it.
+    - Now you should be able to import the class from `loader`.
