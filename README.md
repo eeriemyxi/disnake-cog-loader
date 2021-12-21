@@ -30,7 +30,7 @@ class FooCog(commands.Cog):
     - `py -m pip install -U disnake-cog-loader`
 - Manual
     - Clone this repository.
-    - Install packages listed in [`requiements.txt](/requirements.txt)
+    - Install packages listed in [`requirements.txt`](/requirements.txt)
         - `py -m pip install -r requirements.txt`
     - Copy the [`loader`](/disnake/ext/loader) folder to where you want to use it.
     - Now you should be able to import the class from `loader`.
