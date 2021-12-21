@@ -10,7 +10,7 @@ setup(
     name='disnake-cog-loader',
     author='Myxi',
     url='https://github.com/m-y-x-i/disnake-cog-loader',
-    version='0.0.3',
+    version='0.0.1',
     packages=['disnake.ext.loader'],
     description='An extension module for disnake to load cogs without needing the setup function.',
     long_description=README,
